@@ -6,7 +6,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] public TMP_Text scoreInGameText;
     [SerializeField] public TMP_Text scoreInMenuText;
 
-    static int[] scores = new int[3];
+    static int[] scores = new int[1];
 
     int currentScore = 0;
 

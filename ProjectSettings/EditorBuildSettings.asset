@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Escena.unity
     guid: 43b39688c451a2a429c80eca477ffb5c
   - enabled: 1
-    path: Assets/Scenes/Points.unity
+    path: Assets/Scenes/Game over.unity
     guid: d8015f2b7f46679449274edd73346022
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
