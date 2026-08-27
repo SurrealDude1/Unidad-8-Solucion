@@ -1,14 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameOverOnTouch : MonoBehaviour
 {
+    [SerializeField] private GameObject gameOverManager;
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.gameObject.CompareTag("Game Over"))
+        if (hit.collider.CompareTag("Game Over"))
         {
-            SceneManager.LoadScene("Game over");
+            gameOverManager.SetActive(true);
         }
     }
 }
-
