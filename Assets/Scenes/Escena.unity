@@ -7005,6 +7005,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1428504912}
+    - targetCorrespondingSourceObject: {fileID: 1584816999124152, guid: aa6adef6d2716f7428bd48c1ea29cce9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1428504913}
   m_SourcePrefab: {fileID: 100100000, guid: aa6adef6d2716f7428bd48c1ea29cce9, type: 3}
 --- !u!1 &935044283
 GameObject:
@@ -10403,6 +10407,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameover
   gameOverManager: {fileID: 718050878}
+  animator: {fileID: 1428504913}
+--- !u!95 &1428504913
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428504891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2ab0893f5bba9b243b65e309e78089d0, type: 3}
+  m_Controller: {fileID: 9100000, guid: c11315b6db6dc0f45a778863daf19467, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1440291148
 PrefabInstance:
   m_ObjectHideFlags: 0
