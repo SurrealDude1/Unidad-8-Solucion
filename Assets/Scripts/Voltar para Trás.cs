@@ -1,12 +1,13 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Voltarparatrás1 : MonoBehaviour
 {
-
-
-    public void VoltarMenu()
+    public GameObject menuPrincipal;
+    
+    void Start()
     {
-        SceneManager.LoadScene("Main Menu");
+        menuPrincipal.SetActive(true);
     }
 }
+
+
