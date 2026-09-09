@@ -1035,7 +1035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 111452209}
-  - component: {fileID: 111452208}
+  - component: {fileID: 111452210}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1043,18 +1043,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &111452208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111452207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 590ed64f23d8aa644af750aadfd475a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: "Assembly-CSharp::Voltarparatr\xE1s1"
 --- !u!4 &111452209
 Transform:
   m_ObjectHideFlags: 0
@@ -1070,6 +1058,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1626021419}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111452210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111452207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590ed64f23d8aa644af750aadfd475a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Voltarparatr\xE1s1"
+  menuPrincipal: {fileID: 2074053976}
 --- !u!1 &121403156
 GameObject:
   m_ObjectHideFlags: 0
@@ -6084,6 +6085,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626021419}
     m_Modifications:
+    - target: {fileID: 125102368761018778, guid: ad00849cd39b3f7f0af6c9815552f62b,
+        type: 3}
+      propertyPath: menuPrincipal
+      value: 
+      objectReference: {fileID: 1834513182}
     - target: {fileID: 6270392867865231604, guid: ad00849cd39b3f7f0af6c9815552f62b,
         type: 3}
       propertyPath: m_Name
@@ -15584,9 +15590,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 111452208}
-        m_TargetAssemblyTypeName: "Voltarparatr\xE1s1, Assembly-CSharp"
-        m_MethodName: VoltarMenu
+      - m_Target: {fileID: 11500000, guid: 590ed64f23d8aa644af750aadfd475a8, type: 3}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16595,6 +16601,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1003409906}
   m_SourcePrefab: {fileID: 100100000, guid: d5ff1f5c1c85a3b4b97e383bb087d486, type: 3}
+--- !u!1 &2074053976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 412380795407827304, guid: e7e803631cf13954890e96f4c444cb3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2099588225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2099588225
 PrefabInstance:
   m_ObjectHideFlags: 0
